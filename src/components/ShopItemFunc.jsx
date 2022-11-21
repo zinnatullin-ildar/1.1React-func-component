@@ -20,8 +20,6 @@ function ShopItemFunc(props) {
     );
 }
 
-export default ShopItemFunc;
-
 ShopItemFunc.propTypes = {
     item: PropTypes.shape({
         brand: PropTypes.string,
@@ -32,3 +30,5 @@ ShopItemFunc.propTypes = {
         currency: PropTypes.string,
     }),
 };
+
+export default ShopItemFunc;
